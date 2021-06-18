@@ -1,0 +1,50 @@
+/* navigation section*/
+#navbar{
+    flex-direction: column;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+/*home  section*/
+#home{
+    height: 370px;
+    padding: 3px 29px;
+}
+#home::before{
+    height: 528px;
+}
+#home p{
+    font-size: 13px;
+}
+
+/*services section*/
+ #services {
+    flex-direction: column;
+}
+
+
+/*client section*/
+#clients{
+    flex-wrap: wrap;
+    
+}
+#clients img{
+    height: 50px;
+}
+
+/*cotact us section*/
+
+
+/*footer*/
+.h-primary{
+    font-size:26px;
+}
+#contact-box form{
+    width: 80%;
+}
